@@ -3,12 +3,12 @@
   flex-direction: column;
   .actions {
     button {
-      background-color: red; // Czerwone tło
+      background-color: red;
       color: white;
       border: none;
       padding: 0.5rem 1rem;
-      border-radius: 4px; // Zaokrąglone rogi
-      font-weight: bold; // Grubszy font
+      border-radius: 4px;
+      font-weight: bold;
       cursor: pointer;
     }
   }
