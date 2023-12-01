@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .product-modal {
@@ -19,6 +20,7 @@
   position: relative;
   max-height: 970px;
   overflow-y: auto;
+  font-family: "Times New Roman", Times, serif;
 
   .product-modal-header {
     display: flex;
@@ -30,6 +32,7 @@
     .close-icon {
       cursor: pointer;
       font-size: 1.5rem;
+      font-family: "Courier New", Courier, monospace;
     }
 
     .heart-icon {
@@ -52,6 +55,8 @@
     }
 
     .product-details {
+      font-family: "Georgia", "Times New Roman", Times, serif;
+
       h3 {
         margin: 0;
       }
@@ -66,9 +71,8 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
-    }
+      font-family: "Verdana", Geneva, Tahoma, sans-serif;
 
-    .quantity-controls {
       button {
         background-color: #8ea604;
         border-radius: 4px;
@@ -76,6 +80,7 @@
         padding: 0.5rem 1rem;
         margin-right: 0.5rem;
         font-weight: bold;
+        font-family: "Arial", "Helvetica Neue", sans-serif;
       }
 
       span {
@@ -101,6 +106,7 @@
   .carousel-wrapper {
     h3 {
       margin: 0 0 1rem;
+      font-family: "Calibri", "Arial", sans-serif;
     }
 
     .carousel-container {
@@ -120,16 +126,11 @@
           margin-bottom: 0.5rem;
         }
 
-        h4 {
-          margin: 0;
-        }
-
-        p {
-          margin: 0 0 0.5rem;
-        }
-
+        h4,
+        p,
         span {
-          font-weight: bold;
+          font-family: "Calibri", "Arial", sans-serif;
+          margin: 0;
         }
 
         button {
@@ -140,6 +141,7 @@
           border-radius: 4px;
           cursor: pointer;
           text-transform: uppercase;
+          font-family: "Arial", "Helvetica Neue", sans-serif;
         }
       }
     }
