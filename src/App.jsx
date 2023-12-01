@@ -8,18 +8,16 @@ import productsData from "./mock/products.json";
 import "./App.css";
 
 function App() {
-  const [orderedProducts, setOrderedProducts] = useState([]); //basket
-  const [isModalOpen, setIsModalOpen] = useState(false); // sprawdzanie czy modal jest otwarty
-  const [selectedProduct, setSelectedProduct] = useState(null); // produkt w modalu
-  const [likedProducts, setLikedProducts] = useState({}); // oznaczenie produktów poluboinych
+  const [orderedProducts, setOrderedProducts] = useState([]);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedProduct, setSelectedProduct] = useState(null);
+  const [likedProducts, setLikedProducts] = useState({});
 
-  // Funkcja która otwiera modal
   const handleProductSelect = (product) => {
     setIsModalOpen(true);
     setSelectedProduct(product);
   };
 
-  // funkcja ktora zamyka modal
   const handleCloseModal = () => {
     setIsModalOpen(false);
     setSelectedProduct(null);
@@ -33,7 +31,6 @@ function App() {
     );
   };
 
-  // Funkcja dodawania produktów do koszyka
   const addToCart = (product, quantity) => {
     const newProducts = Array(quantity).fill(product);
     setOrderedProducts((prevOrderedProducts) => [
@@ -43,7 +40,6 @@ function App() {
     handleCloseModal();
   };
 
-  // Funkcja do polubiania produktów
   const handleLike = (productId) => {
     setLikedProducts((prevLikedProducts) => ({
       ...prevLikedProducts,
@@ -51,12 +47,10 @@ function App() {
     }));
   };
 
-  // Filtrowanie produktow w dodaj to co lubisz, i ustawianie maksymalnej ilosći produktów w sekcji dodaj to co lubisz
   const relatedProducts = productsData
     .filter((p) => p.id !== selectedProduct?.id)
     .slice(0, 6);
 
-  // Renderowanie głównego komponentu aplikacji
   return (
     <>
       <Basket
@@ -64,7 +58,6 @@ function App() {
         onProductRemove={handleProductRemove}
       />
 
-      {/* Modal*/}
       {isModalOpen && (
         <ProductModal
           product={selectedProduct}
@@ -82,7 +75,6 @@ function App() {
         </header>
         <hr />
 
-        {/* Wyświetlanie listy produktów */}
         <section style={{ display: "flex", gap: "1.5rem", flexWrap: "wrap" }}>
           {productsData.map((product) => (
             <Product

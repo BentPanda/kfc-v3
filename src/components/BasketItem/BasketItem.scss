@@ -1,6 +1,17 @@
 .basket-item {
   display: flex;
   flex-direction: column;
+  .actions {
+    button {
+      background-color: red; // Czerwone tło
+      color: white;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px; // Zaokrąglone rogi
+      font-weight: bold; // Grubszy font
+      cursor: pointer;
+    }
+  }
 
   & > .info {
     display: flex;

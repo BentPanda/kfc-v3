@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { MdClose } from "react-icons/md";
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import Carousel from "react-multi-carousel";
@@ -13,33 +13,34 @@ const ProductModal = ({
   isLiked,
   onLike,
 }) => {
-  // lista produktów do dodania do koszyka
   const [productsInCart, setProductsInCart] = useState([]);
+
+  useEffect(() => {
+    setProductsInCart([product]);
+  }, [product]);
 
   const { name, description, price, imageUrl } = product;
 
-  // Dodawanie produktu do koszyka
   const handleAddToCartClick = () => {
-    onAddToCart([...productsInCart, product]);
-    setProductsInCart([]); // resetowanie listy produktow po dodaniu do koszyka
+    onAddToCart(product, productsInCart.length);
+    setProductsInCart([product]);
   };
 
-  // dodawanie produktu do koszyka
   const handleAddRelatedProductToCart = (relatedProduct) => {
-    onAddToCart([...productsInCart, relatedProduct]);
+    onAddToCart(relatedProduct, 1);
+    setProductsInCart([relatedProduct]);
   };
 
-  // zwiększanie ilosci dodawanych produktow
   const handleIncrementProduct = () => {
     setProductsInCart([...productsInCart, product]);
   };
 
-  // zmniejszanie ilosci dodawanych produktow
   const handleDecrementProduct = () => {
-    setProductsInCart(productsInCart.slice(0, -1));
+    if (productsInCart.length > 1) {
+      setProductsInCart(productsInCart.slice(0, -1));
+    }
   };
 
-  // Konfiguracja karuzeli
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -88,21 +89,14 @@ const ProductModal = ({
         </div>
         {relatedProducts && relatedProducts.length > 0 && (
           <div className="carousel-wrapper">
-            <h3>Powiązane produkty</h3>
+            <h3>Dodaj to co lubisz:</h3>
+
             <Carousel
               responsive={responsive}
               swipeable={true}
               draggable={true}
-              showDots={true}
-              ssr={true}
-              infinite={true}
-              autoPlay={false}
-              keyBoardControl={true}
-              customTransition="all .5"
-              transitionDuration={500}
+              additionalTransfrom={0}
               containerClass="carousel-container"
-              removeArrowOnDeviceType={["tablet", "mobile", "desktop"]}
-              dotListClass="custom-dot-list-style"
               itemClass="carousel-item-padding-40-px"
             >
               {relatedProducts.map((relatedProduct) => (
@@ -131,4 +125,4 @@ const ProductModal = ({
   );
 };
 
-export default Product;
+export default ProductModal;
