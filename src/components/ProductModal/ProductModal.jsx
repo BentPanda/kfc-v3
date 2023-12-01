@@ -13,34 +13,33 @@ const ProductModal = ({
   isLiked,
   onLike,
 }) => {
-  // ilosc produktów w koszyku
-  const [quantity, setQuantity] = useState(1);
+  // lista produktów do dodania do koszyka
+  const [productsInCart, setProductsInCart] = useState([]);
 
   const { name, description, price, imageUrl } = product;
 
-  // Fdodawanie do koszyka
+  // Dodawanie produktu do koszyka
   const handleAddToCartClick = () => {
-    onAddToCart(product, quantity);
-    setQuantity(1);
+    onAddToCart([...productsInCart, product]);
+    setProductsInCart([]); // resetowanie listy produktow po dodaniu do koszyka
   };
 
+  // dodawanie produktu do koszyka
   const handleAddRelatedProductToCart = (relatedProduct) => {
-    onAddToCart(relatedProduct, 1);
+    onAddToCart([...productsInCart, relatedProduct]);
   };
 
-  // zwiekszenie dodawanych produktow do koszyka
-  const handleIncrementQuantity = () => {
-    setQuantity(quantity + 1);
+  // zwiększanie ilosci dodawanych produktow
+  const handleIncrementProduct = () => {
+    setProductsInCart([...productsInCart, product]);
   };
 
-  // zmniejszenie dodawanych produktow do koszyka
-  const handleDecrementQuantity = () => {
-    if (quantity > 1) {
-      setQuantity(quantity - 1);
-    }
+  // zmniejszanie ilosci dodawanych produktow
+  const handleDecrementProduct = () => {
+    setProductsInCart(productsInCart.slice(0, -1));
   };
 
-  // coś do karuzeli z neta
+  // Konfiguracja karuzeli
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 4000, min: 3000 },
@@ -79,9 +78,9 @@ const ProductModal = ({
             <p>Cena: {price}</p>
           </div>
           <div className="quantity-controls">
-            <button onClick={handleDecrementQuantity}>-</button>
-            <span>{quantity}</span>
-            <button onClick={handleIncrementQuantity}>+</button>
+            <button onClick={handleDecrementProduct}>-</button>
+            <span>{productsInCart.length}</span>
+            <button onClick={handleIncrementProduct}>+</button>
           </div>
           <div className="add-to-cart-button">
             <button onClick={handleAddToCartClick}>Dodaj do koszyka</button>
@@ -89,9 +88,7 @@ const ProductModal = ({
         </div>
         {relatedProducts && relatedProducts.length > 0 && (
           <div className="carousel-wrapper">
-            <h3>Dodaj do koszyka</h3>
-
-            {/*konfiguracja karuzeli*/}
+            <h3>Powiązane produkty</h3>
             <Carousel
               responsive={responsive}
               swipeable={true}
@@ -134,4 +131,4 @@ const ProductModal = ({
   );
 };
 
-export default ProductModal;
+export default Product;
