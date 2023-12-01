@@ -133,3 +133,5 @@ const ProductModal = ({
     </div>
   );
 };
+
+export default ProductModal;
