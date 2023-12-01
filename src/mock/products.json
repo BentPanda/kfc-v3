@@ -1,0 +1,831 @@
+[
+  {
+    "id": 1,
+    "name": "Vanilla Shake 300ml",
+    "description": "Vanilla Shake Deluxe large 300ml",
+    "price": 12.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/Shakenowagrafika/Shake_sredni_vanilla_240.png"
+  },
+  {
+    "id": 2,
+    "name": "Strawberry Shake 300ml",
+    "description": "Shakes Deluxe Strawberry Large 300ml",
+    "price": 12.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/Shakenowagrafika/Shake_sredni_truskawka_240.png"
+  },
+  {
+    "id": 3,
+    "name": "Creamy Caramel Shake 300ml",
+    "description": "Shake Deluxe Cream Caramel Large 300ml",
+    "price": 12.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/Shakenowagrafika/Shake_sredni_krowka_240.png"
+  },
+  {
+    "id": 4,
+    "name": "Coffee Frappe 300ml",
+    "description": "Coffee Frappe 300 ml",
+    "price": 12.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/Shakenowagrafika/Shake_sredni_frappe_240.png"
+  },
+  {
+    "id": 5,
+    "name": "Chocolate Shakes 300ml",
+    "description": "Shake Deluxe chocolade Large 300ml",
+    "price": 12.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/Shakenowagrafika/Shake_sredni_choco_240.png"
+  },
+  {
+    "id": 6,
+    "name": "Peanut Butter Shake 300ml",
+    "description": "Shake Deluxe U.S. Peanut Butter Large 300ml",
+    "price": 12.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/Shakenowagrafika/Shake_sredni_peanut_240.png"
+  },
+  {
+    "id": 7,
+    "name": "30 Hot Wings Bucket",
+    "description": "30 Hot Wings, 4 x fries 80g",
+    "price": 76.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/kubelki/nowe/kubelki_4os-Hot_Wings.png"
+  },
+  {
+    "id": 8,
+    "name": "Classic Bucket",
+    "description": "2 pieces of chicken, 4 Hot Wings, 4 Hot&Spicy Strips, 2 x fries 80g, dip",
+    "price": 51.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/kubelki/nowe/kubelki_2os-classic.png"
+  },
+  {
+    "id": 9,
+    "name": "Double Classic",
+    "description": "4 pieces of chicken, 8 Hot Wings, 8 Hot&Spicy Strips, 4 x fries 80g, 2 x dip",
+    "price": 79.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/kubelki/nowe/kubelki_4os-classic.png"
+  },
+  {
+    "id": 10,
+    "name": "15 Hot Wings Bucket",
+    "description": "15 Hot Wings, 2 x fries 80g",
+    "price": 44.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/kubelki/nowe/kubelki_2os-Hot_Wings.png"
+  },
+  {
+    "id": 11,
+    "name": "Best of KFC Bucket for two",
+    "description": "5 Hot Wings, 2 Kentucky Drumsticks, crispy Bites and 2 x fries 80g",
+    "price": 45.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/kubelki/nowe/kubelki_2os-Best.png"
+  },
+  {
+    "id": 12,
+    "name": "11 Hot Wings / 11 Strips Bucket",
+    "description": "11 Hot Wings, 11 Hot 'n Spicy Strips",
+    "price": 63.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/kubelki/nowe/kubelki_2os-11_11.png"
+  },
+  {
+    "id": 13,
+    "type": "big-boxes",
+    "name": "Grander Big Box",
+    "description": "Grander, 5 Hot Wings, Large fries 115g",
+    "price": 42.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/grafiki_2023/BOX_grander_240.png"
+  },
+  {
+    "id": 14,
+    "type": "big-boxes",
+    "name": "Zinger Burger Big Box",
+    "description": "Zinger, 5 Hot Wings, Large fries 115g",
+    "price": 38.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/box/del/BOX_zinger.png"
+  },
+  {
+    "id": 15,
+    "type": "big-boxes",
+    "name": "Twister Big Box",
+    "description": "Twister, 5 Hot Wings, Large fries 115g",
+    "price": 38.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/twisters/regular/BOX_twister_del_240.png"
+  },
+  {
+    "id": 16,
+    "type": "big-boxes",
+    "name": "Mega Pocket Big Box",
+    "description": "Mega Pocket, 5 Hot Wings, Large fries 115g",
+    "price": 42.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/box/del/BOX_megapocket-2.png"
+  },
+  {
+    "id": 17,
+    "type": "big-boxes",
+    "name": "Mega Pocket Big Box",
+    "description": "Mega Pocket, 5 Hot Wings, Large fries 115g",
+    "price": 38.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/box/del/BOX_qurrito.png"
+  },
+  {
+    "id": 18,
+    "type": "big-boxes",
+    "name": "Kentucky Gold Wrapper Big Box",
+    "description": "Kentucky Gold Wrapper, 5 Hot Wings, Large Fries 115g ",
+    "price": 43.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/BOX_KG_wrapper_del_240.png"
+  },
+  {
+    "id": 19,
+    "type": "sides",
+    "name": "Dipper",
+    "description": "Choose 3 dips in extra price",
+    "price": 4.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/dodatki/dipper.png"
+  },
+  {
+    "id": 20,
+    "type": "sides",
+    "name": "5 Onion Rings + Kentucky Gold Dip",
+    "description": "Crunchy, golden onion rings, served with a delicious, creamy dip Kentucky Gold.",
+    "price": 9.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/AmericanSoul/Updatenew/onion5_dip_240%20(1).png"
+  },
+  {
+    "id": 21,
+    "type": "sides",
+    "name": "15 Onion Rings & 3 dips",
+    "description": "Crispy, golden onion rings, served with three delicious sauces.",
+    "price": 19.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/KFC_ONIONRINGS_BUCKET.jpg"
+  },
+  {
+    "id": 22,
+    "type": "sides",
+    "name": "Fries Bucket",
+    "description": "Bucket fries, 240g.",
+    "price": 12.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/dodatki/kubelki_1os-frytki_web.png"
+  },
+  {
+    "id": 23,
+    "type": "sides",
+    "name": "Large Fries",
+    "description": "Fries 115g",
+    "price": 9.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/dodatki/duze_frytki.png"
+  },
+  {
+    "id": 24,
+    "type": "sides",
+    "name": "Fries",
+    "price": 8.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/dodatki/male_frytki.png"
+  },
+  {
+    "id": 25,
+    "type": "sides",
+    "name": "Kentucky Gold Dip",
+    "price": 1.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/dodatki/sos5.png"
+  },
+  {
+    "id": 26,
+    "type": "sides",
+    "name": "Garlic Dip",
+    "description": "Smooth garlic dip",
+    "price": 1.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/dodatki/sos1.png"
+  },
+  {
+    "id": 27,
+    "type": "sides",
+    "name": "Mayo Dip",
+    "description": "Smooth Mayo dip",
+    "price": 1.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/dodatki/sos3.png"
+  },
+  {
+    "id": 28,
+    "type": "sides",
+    "name": "BBQ Dip",
+    "description": "Smooth BBQ dip",
+    "price": 1.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/dodatki/sos6.png"
+  },
+  {
+    "id": 29,
+    "type": "sides",
+    "name": "Oriental Dip",
+    "description": "Smooth oriental dip",
+    "price": 1.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/dodatki/sos4.png"
+  },
+  {
+    "id": 30,
+    "type": "sides",
+    "name": "2x Corn",
+    "description": "Two portions of hot sweet corn topped with delicious butter",
+    "price": 7.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/Poprawki/240x240qq.png"
+  },
+  {
+    "id": 31,
+    "type": "sides",
+    "name": "Coleslaw",
+    "description": "Classic white cabbage salad with sauce based on mayo, vinegar and lemon",
+    "price": 6.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/AmericanSoul/Updatenew/coleslaw_240.png"
+  },
+  {
+    "id": 32,
+    "type": "sides",
+    "name": "Ketchup",
+    "price": 1.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/dodatki/ketchup_saszetka_web.png"
+  },
+  {
+    "id": 33,
+    "type": "rice-bites",
+    "name": "Rice and Bites Sweet Chilli Grande",
+    "description": "Rice and Crispy Bites (330g) with hot pepper flavored sauce combined with slightly sweet chili. Served with sesame seeds.",
+    "price": 25.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/SmakiSwiata2023/kfc_bites_ryz_sweetchili_grande_240.png"
+  },
+  {
+    "id": 34,
+    "type": "rice-bites",
+    "name": "Rice and Bites Oriental Teriyaki Grande",
+    "description": "Rice and Crunchy Bites (330g) in a sweet Japanese sauce, pairs perfectly with the taste of our spicy KFC Bites. Served with sesame.",
+    "price": 25.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/SmakiSwiata2023/kfc_bites_ryz_teruyaki_grande_240.png"
+  },
+  {
+    "id": 35,
+    "type": "menus",
+    "name": "Kentucky Gold Wrapper Menu",
+    "description": "Kentucky Gold Wrapper, Large Fries 115g, Coleslaw or drink",
+    "price": 35.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/Zestaw_KG_wrapper_coleslaw_240.png"
+  },
+  {
+    "id": 36,
+    "type": "menus",
+    "name": "Zinger Cheese & Bacon Menu",
+    "description": "Zinger Burger with Cheddar cheese and crispy bacon, large fries 115g, Coleslaw or drink",
+    "price": 33.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/grafiki_2023/ser_bekon/zinger_SB_coleslaw_240.png"
+  },
+  {
+    "id": 37,
+    "type": "menus",
+    "name": "Grander Menu",
+    "description": "Grander, Large fries 115g, Coleslaw or drink",
+    "price": 37.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/grafiki_2023/Zestaw_Grander_240.png"
+  },
+  {
+    "id": 38,
+    "type": "menus",
+    "name": "Twister Cheese & Bacon Menu",
+    "description": "Twister with Cheddar cheese and crispy bacon, large fries 115g, Coleslaw or drink",
+    "price": 33.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/grafiki_2023/ser_bekon/twister_SB_coleslaw_240.png"
+  },
+  {
+    "id": 39,
+    "type": "menus",
+    "name": "Zinger Burger Menu",
+    "description": "Zinger, Large fries 115g, Coleslaw or drink",
+    "price": 31.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/zestawy/zestawy_coleslaw/Zestaw_Zinger__coleslaw.png"
+  },
+  {
+    "id": 40,
+    "type": "menus",
+    "name": "Twister Menu",
+    "description": "Twister, Large fries 115g, Coleslaw or drink",
+    "price": 31.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/twisters/regular/Zestaw_twister_coleslaw_240.png"
+  },
+  {
+    "id": 41,
+    "type": "menus",
+    "name": "Mega Pocket Menu",
+    "description": "Mega Pocket, Large fries 115g, Coleslaw or drink",
+    "price": 37.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/zestawy/zestawy_coleslaw/zestaw_megapocket__coleslaw.png"
+  },
+  {
+    "id": 42,
+    "type": "menus",
+    "name": "Strips Menu",
+    "description": "4 Hot&Spicy Strips, Large fries 115g, Coleslaw or drink",
+    "price": 23.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/zestawy/zestawy_coleslaw/Zestaw_3_strips%2B_dip__coleslaw.png"
+  },
+  {
+    "id": 43,
+    "type": "cold-drinks",
+    "name": "Pepsi Max 0,85l",
+    "price": 9.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/PEPSImax_440X440.png"
+  },
+  {
+    "id": 44,
+    "type": "cold-drinks",
+    "name": "Pepsi Max Can 0,33l",
+    "price": 5.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/pepsi_max_puszka.png"
+  },
+  {
+    "id": 45,
+    "type": "cold-drinks",
+    "name": "6x Onion Rings + Lech Free 0,0%",
+    "price": 12.95,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/Lech-puszka-Free_onion_web.png"
+  },
+  {
+    "id": 46,
+    "type": "cold-drinks",
+    "name": "Lech Free 0,0%",
+    "price": 6.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/Lech-puszka-Free_web.png"
+  },
+  {
+    "id": 47,
+    "type": "cold-drinks",
+    "name": "Lech Free 0,0% Lime",
+    "price": 6.95,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/limonka_web.png"
+  },
+  {
+    "id": 48,
+    "type": "cold-drinks",
+    "name": "Still Water 0,5l",
+    "price": 6.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/KrystaliczneZrodlo%28Niegaz%29_500ml.png"
+  },
+
+  {
+    "id": 49,
+    "type": "cold-drinks",
+    "name": "Mirinda 0,85l",
+    "price": 9.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/Mirinda_WET_0%2C85L.png"
+  },
+  {
+    "id": 50,
+    "type": "cold-drinks",
+    "name": "Pepsi 0,85l",
+    "price": 9.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/PEPSI_WET_085L.png"
+  },
+  {
+    "id": 51,
+    "type": "cold-drinks",
+    "name": "Pepsi Can 0,33l",
+    "price": 9.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/pepsi%20_puszka.png"
+  },
+  {
+    "id": 52,
+    "type": "cold-drinks",
+    "name": "Lipton Ice Tea Lemon 0,5l",
+    "price": 7.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/Lemon%20500ml-wet2.png"
+  },
+  {
+    "id": 53,
+    "type": "cold-drinks",
+    "name": "Lipton Ice Tea Lemon 0,5l",
+    "price": 7.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/Peach%20500mlwet2.png"
+  },
+  {
+    "id": 54,
+    "type": "cold-drinks",
+    "name": "Lipton Ice Tea Peach 0,5l",
+    "price": 7.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/Peach%20500mlwet2.png"
+  },
+  {
+    "id": 55,
+    "type": "cold-drinks",
+    "name": "Mirinda Can 0,33l",
+    "price": 5.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/mirinda_puszka.png"
+  },
+  {
+    "id": 56,
+    "type": "cold-drinks",
+    "name": "7UP 0,85l",
+    "price": 9.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/7UP_WET_0%2C85L.png"
+  },
+  {
+    "id": 57,
+    "type": "cold-drinks",
+    "name": "7UP Can 0,33l",
+    "price": 5.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/sevenup_puszka.png"
+  },
+  {
+    "id": 58,
+    "type": "cold-drinks",
+    "name": "Lech Free 0,0% Mango&Citrus",
+    "price": 9.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/LECH/lech_active_240.png"
+  },
+  {
+    "id": 59,
+    "type": "ice-cream",
+    "name": "Ben & Jerry's Cookie Dough 100 ml",
+    "description": "Delicious vanilla ice cream with chunks of chocolate chip cookie dough and chocolatey chunks.",
+    "price": 14.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/desery/ben_cookie_small.png"
+  },
+  {
+    "id": 60,
+    "type": "ice-cream",
+    "name": "Ben & Jerry's Brownie 100 ml",
+    "price": 14.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/kurpony/benjerrysbrownie_264x264.png"
+  },
+  {
+    "id": 61,
+    "type": "ice-cream",
+    "name": "Ben & Jerry's Chocolate Fudge Brownie 465 ml",
+    "description": "Chocolate ice cream with chocolate brownie pieces.",
+    "price": 34.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/desery/ben_choco_L.png"
+  },
+  {
+    "id": 62,
+    "type": "ice-cream",
+    "name": "Ben & Jerry's Netflix & Chill'd™ 465 ml",
+    "price": 34.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/desery/ben_netflix_L.png"
+  },
+  {
+    "id": 63,
+    "type": "ice-cream",
+    "name": "Ben & Jerry's Cookie Dough 465 ml",
+    "price": 34.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/desery/ben_cookie_L.png"
+  },
+  {
+    "id": 64,
+    "type": "vege",
+    "name": "Halloumi Burger",
+    "description": "Toasted Brioche bun with grilled Halloumi cheese, tomatoes, fresh rocket leaves, pickled red onion and mayonnaise.",
+    "price": 29.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/halloumi_burger_240x240.png"
+  },
+  {
+    "id": 65,
+    "type": "vege",
+    "name": "Halloumi Batat",
+    "description": "Toasted Brioche bun with grilled Halloumi cheese, tomatoes, fresh rocket leaves, pickled red onion and mayonnaise and batat burger",
+    "price": 34.98,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Images/ALL/batat/halloumi_batat_240.png"
+  },
+  {
+    "id": 66,
+    "type": "vege",
+    "name": "Halloumi Batat Menu",
+    "description": "Halloumi Batat, Large fries 115g, Coleslaw",
+    "price": 43.98,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Images/ALL/batat/Zestaw_halloumi_coleslaw_batat_240.png"
+  },
+  {
+    "id": 67,
+    "type": "vege",
+    "name": "Twister Halloumi",
+    "description": "Grilled Halloumi cheese, fresh lettuce, rocket, tomato, pickled red onion and",
+    "price": 27.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/Twister_halloumi_240x240.png"
+  },
+  {
+    "id": 68,
+    "type": "vege",
+    "name": "Twister Halloumi",
+    "description": "Grilled Halloumi cheese, fresh lettuce, rocket, tomato, pickled red onion and",
+    "price": 36.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/zestawy/zestawy_coleslaw/Zestaw_twister_halloumi__coleslaw.png"
+  },
+  {
+    "id": 69,
+    "type": "vege",
+    "name": "California Sun Poke Bowl with rice & halloumi",
+    "description": "Poke Bowl California Sun: avocado, pineapple, fresh cucumber, arugula,",
+    "price": 27.99,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Rok2023grafika/Poke2023/poke_bowl_Cali_halloumi_salad_240.png"
+  },
+  {
+    "id": 70,
+    "type": "vege",
+    "name": "California Sun Poke Bowl with salad & halloumi",
+    "description": "Poke Bowl California Sun: avocado, pineapple, fresh cucumber, arugula,",
+    "price": 27.99,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Rok2023grafika/Poke2023/poke_bowl_Cali_halloumi_salad_240.png"
+  },
+  {
+    "id": 71,
+    "name": "Sweetest Chilli Poke Bowl with salad & halloumi",
+    "description": "Poke Bowl Sweetest Chili: fresh cucumber, arugula, salad mix with kale,",
+    "price": 27.99,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Rok2023grafika/Poke2023/poke_bowl_chili_halloumi_salad_240.png"
+  },
+  {
+    "id": 72,
+    "name": "Sweetest Chilli Poke Bowl with rice & halloumi",
+    "description": "Poke Bowl Sweetest Chili: fresh cucumber, arugula, salad mix with kale,",
+    "price": 27.99,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Rok2023grafika/Poke2023/poke_bowl_chili_halloumi_240.png"
+  },
+  {
+    "id": 73,
+    "name": "8 Hot Wings",
+    "description": "Get ready for a blast of flavour – eight unbelievably tasty wings in a crispy and spicy coating! We make them fresh in every KFC restaurant. Their spicy, exceptional taste is perfect for lovers of intense flavours.",
+    "price": 23.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/kurczaki/8-HotWings.png"
+  },
+  {
+    "id": 74,
+    "name": "1 piece of Kentucky Chicken",
+    "description": "Our exclusive recipe! Always fresh, juicy and made by hand, coated in our famous secret recipe of 11 herbs and spices. Real chicken – real taste! Just like that.",
+    "price": 9.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/kurczaki/N%C3%B3%C5%BCka-K.png"
+  },
+  {
+    "id": 75,
+    "name": "3 pieces of Kentucky Chicken",
+    "description": "Our exclusive recipe! Always fresh, juicy and made by hand, coated in our famous secret recipe of 11 herbs and spices. Real chicken – real taste! Just like that.",
+    "price": 24.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/kawalkikurczaka/240x2403xtransparent.png"
+  },
+  {
+    "id": 76,
+    "name": "5 pieces of Kentucky Chicken",
+    "description": "Our exclusive recipe! Always fresh, juicy and made by hand, coated in our famous secret recipe of 11 herbs and spices. Real chicken – real taste! Just like that.",
+    "price": 33.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/kawalkikurczaka/240x2405x.png"
+  },
+  {
+    "id": 77,
+    "name": "3 Hot Wings",
+    "description": "Get ready for a blast of flavour – three unbelievably tasty wings in a crispy and spicy coating! We make them fresh in every KFC",
+    "price": 11.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/kurczaki/3-HotWings.png"
+  },
+  {
+    "id": 78,
+    "name": "5 Hot Wings",
+    "description": "Get ready for a blast of flavour – three unbelievably tasty wings in a crispy and spicy coating! We make them fresh in every KFC",
+    "price": 17.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/kurczaki/5-HotWings.png"
+  },
+  {
+    "id": 79,
+    "name": "3 Hot&Spicy Strips",
+    "description": "Three delicate chicken strips, carefully selected and sources from only the best Polish suppliers. Their unique taste comes from a spicy",
+    "price": 15.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/Stripsy%20DEL/3-strips_240.png"
+  },
+  {
+    "id": 80,
+    "name": "5 Hot&Spicy Strips",
+    "description": "Three delicate chicken strips, carefully selected and sources from only the best Polish suppliers. Their unique taste comes from a spicy",
+    "price": 22.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/Stripsy%20DEL/5-strips_240.png"
+  },
+  {
+    "id": 81,
+    "name": "Bites Standard 180g",
+    "description": "Crunchy Chicken Bites 180g",
+    "price": 20.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/kurczaki/Bites_standard.png"
+  },
+  {
+    "id": 82,
+    "name": "8 Hot&Spicy Strips",
+    "description": "Eight delicate chicken strips, carefully selected and sources from only the best Polish suppliers. Their unique taste comes from a spicy",
+    "price": 33.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/Stripsy%20DEL/8-strips%2B2-dip_240.png"
+  },
+  {
+    "id": 83,
+    "name": "Cheeseburger",
+    "description": "Bun filled with chicken strips, cheddar cheese, ketchup, mustard and tasty pickle.",
+    "price": 9.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/new/cheeseburger.png"
+  },
+  {
+    "id": 84,
+    "name": "Longer",
+    "description": "If you’re up for a large, crisp bun, delicious chicken breast filets, fresh lettuce from the best suppliers and a bit",
+    "price": 9.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/new/longer.png"
+  },
+  {
+    "id": 85,
+    "name": "iTwist",
+    "description": "Fresh, spicy chicken strips, under iceberg lettuce and tomatoes, all with mayonnaise sauce.",
+    "price": 9.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/new/iTwist.png"
+  },
+  {
+    "id": 86,
+    "name": "Orange Juice 0,33l",
+    "price": 6.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/TOMA%20JUICE%20330ML%20ORANGE.png"
+  },
+  {
+    "id": 87,
+    "name": "Apple Juice 0,33l",
+    "price": 6.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/TOMA%20JUICE%20330ML%20APPLE%20.png"
+  },
+  {
+    "id": 88,
+    "name": "Zinger Batat",
+    "description": "Burger Zinger po brzegi wypełniony złocistym kurczakiem z sosem",
+    "price": 26.98,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Images/ALL/batat/zinger_batat_240.png"
+  },
+  {
+    "id": 89,
+    "name": "Zinger Batat Menu",
+    "description": "Zinger Batat, Large fries 115g, Coleslaw",
+    "price": 36.98,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Images/ALL/batat/Zestaw_zinger_coleslaw_batat_240.png"
+  },
+  {
+    "id": 90,
+    "name": "Zinger Batat Big Box",
+    "description": "Zinger Batat, 5 Hot Wings, Large fries 115g",
+    "price": 43.98,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Images/ALL/batat/BOX_zingerdel_batat_240.png"
+  },
+  {
+    "id": 91,
+    "name": "Grander Batat",
+    "description": "A big Kaiser bun with a piece of fresh, hand-breaded chicken in the middle",
+    "price": 32.98,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Images/ALL/batat/grander_batat_240.png"
+  },
+  {
+    "id": 92,
+    "name": "Grander Batat Menu",
+    "description": "Grander Batat, Large fries 115g, Coleslaw",
+    "price": 42.98,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Images/ALL/batat/Zestaw_grander_coleslaw_batat_240.png"
+  },
+  {
+    "id": 93,
+    "name": "Grander Batat Big Box",
+    "description": "Grander Batat, 5 Hot Wings, Large fries 115g",
+    "price": 47.98,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Images/ALL/batat/BOX_granderdel_batat_240.png"
+  },
+  {
+    "id": 94,
+    "name": "Grander Batat Big Box",
+    "description": "Grander Batat, 5 Hot Wings, Large fries 115g",
+    "price": 47.98,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Images/ALL/batat/BOX_granderdel_batat_240.png"
+  },
+  {
+    "id": 95,
+    "name": "Zinger Burger",
+    "description": "A piece of fresh chicken - prepared right before serving. Together with iceberg lettuce and mayonnaise. ",
+    "price": 21.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/new/zinger.png"
+  },
+  {
+    "id": 96,
+    "name": "Zinger Burger",
+    "description": "A piece of fresh chicken - prepared right before serving. Together with iceberg lettuce and mayonnaise.",
+    "price": 21.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/new/zinger.png"
+  },
+  {
+    "id": 97,
+    "name": "Cheeseburger Batat",
+    "description": "A crispy bun filled with juicy chicken fillet with ketchup and mustard. Topped with golden cheddar cheese and delicious pickles and the batat burger",
+    "price": 14.98,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Images/ALL/batat/cheese_batat_240.png"
+  },
+
+  {
+    "id": 98,
+    "name": "Cheeseburger Batat Menu",
+    "description": "2 x Cheeseburger Batat, Large fries 115g, Coleslaw",
+    "price": 39.97,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Images/ALL/batat/poprawka/Zestaw_cheese_coleslaw_240.png"
+  },
+  {
+    "id": 99,
+    "name": "Cheeseburger Batat Big Box",
+    "description": "2 x Cheeseburger Batat, 5 Hot Wings, Large fries 115g",
+    "price": 42.97,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Images/ALL/batat/poprawka/BOX_cheesepuszka_240.png"
+  },
+  {
+    "id": 100,
+    "name": "Double Grander",
+    "description": "Double awesome Grander! A big kaiser bun with two pieces of fresh, hand-",
+    "price": 32.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/new/grander_podwojny.png"
+  },
+
+  {
+    "id": 101,
+    "name": "Double Grander Big Box",
+    "description": "Double Grander, Large fries 115g, Coleslaw or drink",
+    "price": 47.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/box/del/BOX_grander_podwojny.png"
+  },
+  {
+    "id": 102,
+    "name": "Kentucky Gold Grander",
+    "description": "Burger filled with golden chicken, crispy bacon, onion rings and Cheddar",
+    "price": 29.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/Kentucky%20gold/Kentucky_Gold_240.png"
+  },
+  {
+    "id": 103,
+    "name": "Kentucky Gold Grander Menu",
+    "description": "Burger filled with golden chicken, crispy bacon, onion rings and Cheddar",
+    "price": 38.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/Zestaw_Kentucky_Gold_coleslaw_240.png"
+  },
+  {
+    "id": 104,
+    "name": "Kentucky Gold Grander Big Box",
+    "description": "Burger filled with golden chicken, crispy bacon, onion rings and Cheddar",
+    "price": 44.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/BOX_Kentucky_Gold_del_240.png"
+  },
+  {
+    "id": 105,
+    "name": "Kentucky Gold Grander Big Box",
+    "description": "Burger filled with golden chicken, crispy bacon, onion rings and Cheddar",
+    "price": 44.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/BOX_Kentucky_Gold_del_240.png"
+  },
+  {
+    "id": 106,
+    "name": "Zinger Cheese & Bacon",
+    "description": "Burger Zinger - A piece of fresh chicken - prepared right before serving. Together with Cheddar cheese, crispy bacon, iceberg lettuce and mayonnaise.",
+    "price": 23.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/grafiki_2023/ser_bekon/zinger_SB_240.png"
+  },
+
+  {
+    "id": 107,
+    "name": "Zinger Cheese & Bacon Big Box",
+    "description": "Zinger Burger with Cheddar cheese and crispy bacon, 5 hot wings, large fries",
+    "price": 40.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/ALL/grafiki_2023/ser_bekon/BOX_zinger_sb_del_240.png"
+  },
+  {
+    "id": 108,
+    "name": "Double Zinger Burger Menu",
+    "description": "Double Zinger Burger, Large fries 115g, Coleslaw or drink",
+    "price": 38.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/zestawy/zestawy_coleslaw/Zestaw_Zinger_podwojny__coleslaw.png"
+  },
+  {
+    "id": 109,
+    "type": "cold-drinks",
+    "name": "Sparkly Water 0,5l",
+    "price": 6.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/napoje/KrystaliczneZrodlo%28Gaz%29_500ml.png"
+  },
+  {
+    "id": 110,
+    "name": "Grande Chicken Bites 300g",
+    "description": "Crispy Chicken Bites 300g",
+    "price": 30.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/kurczaki/Bites_grande.png"
+  },
+  {
+    "id": 111,
+    "name": "Cheeseburger Batat",
+    "description": "A crispy bun filled with juicy chicken fillet with ketchup and mustard. Topped with golden cheddar cheese and delicious pickles and the batat burger",
+    "price": 14.98,
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Images/ALL/batat/cheese_batat_240.png"
+  },
+  {
+    "id": 112,
+    "name": "Double Grander Menu",
+    "description": "Double Grander, Large fries 115g, Coleslaw or drink",
+    "price": 42.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/zestawy/zestawy_coleslaw/zestaw_grander_podwojny__coleslaw.png"
+  },
+  {
+    "id": 113,
+    "name": "Double Zinger Burger",
+    "description": "Zinger Premium with double serving of meat? Hell yes! Perfect choice for people with an appetite. Crunchy bun, filled to the brim with tasty stuff - mayonnaise and a hearty portion of iceberg lettuce.",
+    "price": 23.99,
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Images/Web/new/zinger_podwojny.png"
+  }
+]

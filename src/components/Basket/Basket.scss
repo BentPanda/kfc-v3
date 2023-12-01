@@ -1,0 +1,44 @@
+.basket {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #fff;
+  border: 1px solid #d2db9b;
+  border-radius: 8px;
+  padding: 12px 24px 24px;
+  width: 360px;
+  max-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  & > header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  & > section {
+    & > ul {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+  }
+
+  .pay-button {
+    display: flex;
+    align-items: center;
+    height: 56px;
+    min-height: 56px;
+    width: 312px;
+    border-radius: 32px;
+    background-color: #8ea604;
+    padding: 8px 24px 8px 8px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+  }
+}

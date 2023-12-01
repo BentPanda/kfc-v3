@@ -1,0 +1,29 @@
+.basket-item {
+  display: flex;
+  flex-direction: column;
+
+  & > .info {
+    display: flex;
+    gap: 0.5rem;
+
+    & > div:first-child {
+    }
+
+    & > div:nth-child(2) {
+      flex: 1;
+
+      p {
+        font-size: 14px;
+        color: #8d8887;
+      }
+    }
+
+    & > div:last-child {
+    }
+  }
+
+  & > .actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "Shakes Deluxes",
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Banner/kat_shakes_bezramki.webp",
+    "productIds": [1, 2, 3, 4, 5, 6]
+  },
+  {
+    "id": 2,
+    "name": "Buckets",
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Kategorie/kategorie/kubelki_4os-classic_126x126.webp",
+    "productIds": [7, 8, 9, 10, 11, 12]
+  },
+  {
+    "id": 3,
+    "name": "Big Boxes",
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Kategorie/kategorie/BOX_grander_126x126.webp",
+    "productIds": [13, 14, 15, 16, 17, 18]
+  },
+  {
+    "id": 4,
+    "name": "Create Your Bucket",
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Kategorie/kategorie/kat_cyob_126x126.webp",
+    "productIds": []
+  },
+  {
+    "id": 5,
+    "name": "Sides",
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Rok2023grafika/IkinkiKategorji/kategoria_sides_240_NEW.png",
+    "productIds": [19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+  },
+  {
+    "id": 6,
+    "name": "Rice & Bites Flavours of the World",
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/SmakiSwiata2023/ikona_ryze.png",
+    "productIds": [33, 34]
+  },
+  {
+    "id": 7,
+    "name": "Menus",
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Kategorie/kategorie/Zestaw_qurrito_grande__coleslaw_126x126.webp",
+    "productIds": [35, 36, 37, 38, 39, 40, 41, 42]
+  },
+  {
+    "id": 8,
+    "name": "Burgers",
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Kategorie/kategorie/kat_burgery_126x126.webp",
+    "productIds": []
+  },
+  {
+    "id": 9,
+    "name": "Poke Bowl",
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/Poprawki/ikona_cat_poke.png",
+    "productIds": [69, 70, 71, 72]
+  },
+  {
+    "id": 10,
+    "name": "For Kids",
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Rok2023grafika/Dla_dzieci/NEW/cheeseburgerrrr_240.png",
+    "productIds": []
+  },
+  {
+    "id": 11,
+    "name": "Vege",
+    "imageUrl": "https://sawepecomcdn.blob.core.windows.net/kfc-web-ordering/KFC/Rok2023grafika/IkinkiKategorji/ikona_vege_240_NEW.png",
+    "productIds": [64, 65, 66, 67, 68, 69, 70]
+  },
+  {
+    "id": 12,
+    "name": "Wraps",
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Kategorie/kategorie/kategoria_wraps__126x126.webp",
+    "productIds": []
+  },
+  {
+    "id": 13,
+    "name": "Chicken",
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Rok2023grafika/kawalkikurczaka/240x2405x.png",
+    "productIds": []
+  },
+  {
+    "id": 14,
+    "name": "Cold Drinks",
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Kategorie/kategorie/PEPSImax__126x126.webp",
+    "productIds": [
+      43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Ice Cream",
+    "imageUrl": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/Kategorie/kategorie/ben_cookie_L_126x126.webp",
+    "productIds": [59, 60, 61, 62, 63]
+  }
+]
